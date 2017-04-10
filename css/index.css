@@ -1,0 +1,166 @@
+body{
+	background: #f2f2f2;
+}
+/*head*/
+.head{
+	width: 100%;
+	background: #333;
+	position: fixed;
+	z-index: 999;
+	opacity: 0.75;
+}
+#logo{
+	color: #ADADAD;
+	font-size: 5em;
+	text-align: center;
+}
+#logo img{
+	width: 15%;
+	display: block;
+	margin: 1% auto;
+}
+.nav{
+	width: 75%;
+	/*padding-top: 5em;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.nav a{
+	float: left;
+	color: #adadad;
+	display: block;
+	width: 25%;
+	text-align: center;
+	padding-bottom: 0.5em;
+	
+}
+
+.contain{
+	padding: 12% 5% 5% 5%;
+}
+
+/*banner*/
+.banner{
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+}
+
+/*info*/
+.info p{
+	border-top: 1px solid #ADADAD;
+	border-bottom: 1px solid #ADADAD;
+	font-size: 1.25em;
+	font-family: '微软雅黑';
+	color: #666;
+	text-indent: 2em;
+	margin-top: 2em;
+	padding: 2em 0;
+}
+/*friend_link*/
+.friend_link_ul{
+	overflow: hidden;
+}
+.friend_link_ul li{
+	float: left;
+	width: 5%;
+	margin-top: 2%;
+	margin-right: 2%;
+}
+.friend_link_ul li img{
+	width: 100%;
+}
+
+/*content*/
+.content{
+	width: 100%;
+	overflow: hidden;
+}
+.content a{
+	float: left;
+	width: 31%;
+	border-radius: 10px;
+	margin: 2% 0;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 2px 2px 2px #e3e3e3;
+}
+.content a:nth-child(3n-1){
+	margin: 2% 3.33%;
+}
+.content a img{
+	width: 100%;
+	display: block;
+}
+.content a p{
+	bottom: 0;
+	color: #666;
+	text-align: center;
+	background: #FFFFFF;
+	line-height: 35px;
+	font-size: 1.25em;
+	font-family: "微软雅黑";
+}
+.ani_con{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+}
+.ani_con span{
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+.work_title{
+	font-size: 3em;
+	/*font-weight: bold;*/
+	font-family: "微软雅黑";
+	margin-top: 20%;
+}
+
+/*foot*/
+.foot{
+	background: #e0e0e0;
+	width: 100%;
+	overflow: hidden;
+	padding: 2em 0;
+}
+.foot_l{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+.foot_r{
+	width: 49%;
+	float: right;
+	overflow: hidden;
+	border-left: 1px solid #ADADAD;
+}
+.foot_l a{
+	float: right;
+	width: 30px;
+}
+.foot_l a img{
+	width: 100%;
+}
+.footer_logo{
+	width: 40%;
+	margin-bottom: 10px;
+}
+.footer_logo img{
+	width: 100%;
+}
+.foot_r_con{
+	margin-left: 3%;
+}
+.foot_r_con p{
+	margin-bottom: 5px;
+	color: #666;
+	font-size: 0.75em;
+}
+ 
